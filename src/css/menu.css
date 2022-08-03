@@ -1,0 +1,48 @@
+nav {
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.burger-lines {
+    cursor: pointer;
+}
+
+.line {
+    border: 2px solid var(--black);
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--black);
+    margin-bottom: 5px;
+
+}
+
+.avatar {
+    height: 35px;
+
+}
+
+.avatar img {
+    height: 35px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.mobile-menu{
+    position:relative;
+    top:0;
+    left:0;
+    right: 50;
+    bottom: 100;
+    background-color: bisque;
+}
+
+.mobile-menu ul{
+    list-style: none;
+}
